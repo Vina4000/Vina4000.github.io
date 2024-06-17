@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+}
+
+header, main, aside, footer {
+    padding: 20px;
+    margin: 10px;
+    border: 1px solid #ddd;
+}
+
+header h1, main h2, aside h2 {
+    margin-top: 0;
+}
+
+footer {
+    text-align: center;
+}
+
+form .form-label {
+    display: block;
+    margin-top: 10px;
+}
+
+form .form-control {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+form textarea {
+    height: 100px;
+}
+
+figure {
+    margin: 0;
+}
+
+figcaption {
+    text-align: center;
+    font-style: italic;
+}
