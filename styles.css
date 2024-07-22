@@ -1,0 +1,172 @@
+/* Name: Vincent Inalegwu */
+/* Student Number: 8944000 */
+
+/* Different Sectors*/
+
+/* Multiple selector */
+header, footer {
+    background: linear-gradient(to right, #ff7e5f, #feb47b);
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+/* Element type selector */
+body {
+    width: 1200px;
+    margin: 0 auto;
+    padding: 1rem;
+    font-size: 1rem;
+}
+
+/* Class selector */
+.form-control {
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+    border: 1px solid #ccc;
+    border-radius: 0.5rem;
+}
+
+/* ID selector */
+#additional-links {
+    float: left;
+    width: 30%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+#contact-form {
+    float: left;
+    width: 30%;
+    padding: 1rem;
+    box-sizing: border-box;
+}
+
+/* Descendant selector */
+aside ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+aside ul li a {
+    text-decoration: none;
+    color: #ff7e5f;
+}
+
+/* Child selector */
+main > section {
+    margin: 1rem 0;
+}
+
+/* Root element */
+html {
+    font-style: normal;
+    font-variant: italic;
+    font-weight: 900;
+    font-size: 20px/1.5 'Arial', sans-serif; /*only set the font-size once in the root element*/
+    background-color: #f0f0f0;
+}
+
+/* Box-Model */
+* {
+    margin: 0.5rem;
+    padding: 0.5rem;
+    box-sizing: border-box;
+}
+
+figure, img, video {
+    border: 0.25rem solid #ddd;
+    border-radius: 0.5rem;
+    background-color: #fff;
+}
+
+/* Layout */
+#main-content {
+    float: left;
+    width: 70%;
+    padding: 1rem;
+}
+
+#contact-form, #additional-links, footer {
+    clear: both;
+}
+
+/* Header & Footer elements */
+header h1 {
+    font-size: 2.5rem;
+}
+
+footer {
+    font-size: 0.8rem;
+}
+
+/* Main elements Styles */
+main h2 {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    color: #333;
+    text-align: center;
+}
+
+q {
+    font-variant: normal;
+    font-style: oblique;
+    font-weight: lighter;
+    font-family: 'Times New Roman', serif;
+    color: #555;
+    border: 1px solid #ccc;
+    box-shadow: 2px 2px 5px #aaa;
+}
+
+/* Figure & Image , Video */
+figure {
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+    background-color: #fafafa;
+}
+
+figcaption {
+    font-variant: small-caps;
+    font-style: italic;
+    font-weight: bold;
+    font-family: 'Arial', sans-serif;
+    color: #feb47b;
+}
+
+video {
+    border: 0.1rem solid #ccc;
+    border-radius: 0.5rem;
+}
+
+/* Aside element styles */
+aside h2 {
+    font-variant: small-caps;
+    color: #ff7e5f;
+    text-align: center;
+}
+
+aside ul li {
+    line-height: 1.5;
+}
+
+aside ul li a:hover {
+    color: #feb47b;
+}
+
+/* Form */
+label {
+    color: #333;
+    font-variant: small-caps;
+    font-weight: bold;
+    display: block;
+    margin: 0.5rem 0 0.2rem 0;
+}
+
+input[type="text"], input[type="email"], select, textarea {
+    width: 100%;
+    padding: 0.5rem;
+    margin: 0.5rem 0;
+}
+
